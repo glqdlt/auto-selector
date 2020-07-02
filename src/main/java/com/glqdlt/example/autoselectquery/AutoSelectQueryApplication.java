@@ -1,13 +1,18 @@
 package com.glqdlt.example.autoselectquery;
 
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AutoSelectQueryApplication {
+public class AutoSelectQueryApplication implements CommandLineRunner {
+
 
     public static void main(String[] args) {
         SpringApplication.run(AutoSelectQueryApplication.class, args);
     }
 
+    @Override
+    public void run(String... args) throws Exception {
+    }
 }
