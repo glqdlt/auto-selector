@@ -1,0 +1,81 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+
+<div id="criteria-entry">
+    <select multiple="multiple">
+        <option>STRING2</option>
+        <option>DATE2</option>
+        <option>NUMBER2</option>
+    </select>
+</div>
+<div id="criteria-zone">
+
+    <div>
+        <span>STRING</span>
+        <select>
+            <option>IS</option>
+            <option>IN</option>
+            <option>IS NOT</option>
+            <option>IN NOT</option>
+        </select>
+        NULL <input type="radio">
+        <input type="text">
+        <button>-</button>
+    </div>
+    <div>
+        <span>DATE</span>
+        <select>
+            <option>IS</option>
+            <option>RANGE</option>
+        </select>
+        NULL <input type="radio">
+        <input type="datetime-local">
+        <input type="datetime-local">
+        <button>-</button>
+    </div>
+    <div>
+        <span>NUMBER</span>
+        <select>
+            <option>GT</option>
+            <option>IS</option>
+            <option>IS NOT</option>
+            <option>LT</option>
+        </select>
+        NULL <input type="radio">
+        <input value="0" type="number">
+        <button>-</button>
+    </div>
+</div>
+<hr/>
+<div id="submit-zone">
+    ORDER BY
+    <select>
+        <option>PK</option>
+        <option>STRING</option>
+        <option>DATE</option>
+    </select>
+    <select>
+        <option>
+            DESC
+        </option>
+        <option>
+            ASC
+        </option>
+    </select>
+    SIZE <input max="1000" value="1000" type="number">
+    <button>SUBMIT</button>
+</div>
+<hr/>
+<div id="table-zone">
+    <table>
+
+    </table>
+</div>
+</body>
+
+</html>
